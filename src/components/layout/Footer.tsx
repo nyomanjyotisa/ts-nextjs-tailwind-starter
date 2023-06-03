@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Link from 'next/link';
-import Script from 'next/script';
 
 export default function Footer({localData} : any) {
   return (
@@ -211,8 +210,6 @@ export default function Footer({localData} : any) {
       </Link>
       <div className="mb-4 d-block" />
       
-      <Script src="/js/all-js-libraries.js" />
-      <Script src="/js/active.js" />
     </>
   );
 }

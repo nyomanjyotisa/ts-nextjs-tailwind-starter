@@ -2,9 +2,42 @@ import * as React from 'react';
 import Link from 'next/link';
 
 export default function Header({localData} : any) {
+  const [showWebsiteDropdown, setWebsiteDropdown] = React.useState(false);
+  const [showMarketingDropdown, setMarketingDropdown] = React.useState(false);
+  const [showOthersDropdown, setOthersDropdown] = React.useState(false);
+  const [showNavbar, setNavbar] = React.useState(false);
+  const [showSticky, setSticky] = React.useState(false);
+
+  function toggleDropdown(value: any){
+    if(value == 'website'){
+      setWebsiteDropdown(!showWebsiteDropdown);
+    }else if(value == 'marketing'){
+      setMarketingDropdown(!showMarketingDropdown);
+    }else if(value == 'others'){
+      setOthersDropdown(!showOthersDropdown);
+    }
+  }
+
+  function togleNavbar() {
+    setNavbar(!showNavbar);
+  }
+
+  const handleScroll = () => {
+    if(window.scrollY > 10){
+      setSticky(true)
+    }else{
+      setSticky(false)
+    }
+  };
+  
+  React.useEffect(() => {
+    window.addEventListener("scroll", handleScroll); 
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+  
   return (
     <>
-    <header className="header-area">
+    <header className={`header-area ${showNavbar? 'mobile-menu-open' : ''} ${showSticky? 'sticky-on' : ''}`}>
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <Link className="navbar-brand" href="/">
@@ -18,6 +51,7 @@ export default function Header({localData} : any) {
             aria-controls="saasboxNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={() => togleNavbar()}
           >
             <i className="bi bi-grid" />
           </button>
@@ -27,8 +61,15 @@ export default function Header({localData} : any) {
                 <Link href="/">Beranda</Link>
               </li>
               <li className="sb-dropdown">
-                <Link href="#">Website</Link>
-                <ul className="sb-dropdown-menu">
+                <Link href="#"
+                  onMouseEnter={() => setWebsiteDropdown(true)}   
+                >Website</Link>
+                <div className="dropdown-toggler" onClick={() => toggleDropdown('website')}>
+                  <i className="bi bi-caret-down-fill" />
+                </div>
+                <ul className="sb-dropdown-menu" style={{
+                  display: showWebsiteDropdown?"block":"none"
+                }}>
                   {localData.services.websites.map((service: any) => (
                     <li key={service.id}>
                       <Link href={`/service/website/${service.slug}`}>
@@ -40,8 +81,15 @@ export default function Header({localData} : any) {
                 </ul>
               </li>
               <li className="sb-dropdown">
-                <Link href="#">Digital Marketing</Link>
-                <ul className="sb-dropdown-menu">
+                <Link href="#"
+                  onMouseEnter={() => setMarketingDropdown(true)}   
+                >Digital Marketing</Link>
+                <div className="dropdown-toggler" onClick={() => toggleDropdown('marketing')}>
+                  <i className="bi bi-caret-down-fill" />
+                </div>
+                <ul className="sb-dropdown-menu" style={{
+                  display: showMarketingDropdown?"block":"none"
+                }}>
                   {localData.services.marketings.map((service: any) => (
                     <li key={service.id}>
                       <Link href={`/service/marketing/${service.slug}`}>
@@ -53,8 +101,15 @@ export default function Header({localData} : any) {
                 </ul>
               </li>
               <li className="sb-dropdown">
-                <Link href="#">Jasa Lainnya</Link>
-                <ul className="sb-dropdown-menu">
+                <Link href="#"
+                  onMouseEnter={() => setOthersDropdown(true)}
+                >Jasa Lainnya</Link>
+                <div className="dropdown-toggler" onClick={() => toggleDropdown('others')}>
+                  <i className="bi bi-caret-down-fill" />
+                </div>
+                <ul className="sb-dropdown-menu" style={{
+                  display: showOthersDropdown?"block":"none"
+                }}>
                   {localData.services.others.map((service: any) => (
                     <li key={service.id}>
                       <Link href={`/service/others/${service.slug}`}>
