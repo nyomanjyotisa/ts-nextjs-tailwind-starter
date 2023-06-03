@@ -1,0 +1,127 @@
+{
+  "services": {
+      "websites": [
+        {
+          "id": 1,
+          "name": "Website Perusahaan",
+          "slug": "perusahaan",
+          "desc": "Website Perusahaan",
+          "faq": "Website Perusahaan"
+        },
+        {
+          "id": 2,
+          "name": "Website Dokter Gigi",
+          "slug": "dokter-gigi",
+          "desc": "Website Dokter Gigi",
+          "faq": "Website Dokter Gigi"
+        },
+        {
+          "id": 3,
+          "name": "Website Dokter Mata",
+          "slug": "dokter-mata",
+          "desc": "Website Dokter Mata",
+          "faq": "Website Dokter Mata"
+        },
+        {
+          "id": 4,
+          "name": "Website Klinik",
+          "slug": "kinik",
+          "desc": "Website Klinik",
+          "faq": "Website Klinik"
+        },
+        {
+          "id": 5,
+          "name": "Website Fisioterapi",
+          "slug": "fisioterapi",
+          "desc": "Website Fisioterapi",
+          "faq": "Website Fisioterapi"
+        },
+        {
+          "id": 6,
+          "name": "Website Spa/Message",
+          "slug": "spa-message",
+          "desc": "Website Spa/Message",
+          "faq": "Website Spa/Message"
+        },
+        {
+          "id": 7,
+          "name": "Website Tour Travel",
+          "slug": "tour-travel",
+          "desc": "Website Tour Travel",
+          "faq": "Website Tour Travel"
+        },
+        {
+          "id": 8,
+          "name": "Website Toko Online",
+          "slug": "toko-online",
+          "desc": "Website Toko Online",
+          "faq": "Website Toko Online"
+        },
+        {
+          "id": 9,
+          "name": "Website Hotel/Villa",
+          "slug": "hotel-villa",
+          "desc": "Website Hotel/Villa",
+          "faq": "Website Hotel/Villa"
+        },
+        {
+          "id": 10,
+          "name": "Website Agen Properti",
+          "slug": "agen-properti",
+          "desc": "Website Agen Properti",
+          "faq": "Website Agen Properti"
+        },
+        {
+          "id": 11,
+          "name": "Website Sales Mobil",
+          "slug": "sales-mobil",
+          "desc": "Website Sales Mobil",
+          "faq": "Website Sales Mobil"
+        },
+        {
+          "id": 12,
+          "name": "Website Rental Mobil",
+          "slug": "rental-mobil",
+          "desc": "Website Rental Mobil",
+          "faq": "Website Rental Mobil"
+        },
+        {
+          "id": 13,
+          "name": "Website Portal Berita",
+          "slug": "portal-berita",
+          "desc": "Website Portal Berita",
+          "faq": "Website Portal Berita"
+        },
+        {
+          "id": 14,
+          "name": "Website Pribadi",
+          "slug": "pribadi",
+          "desc": "Website Pribadi",
+          "faq": "Website Pribadi"
+        },
+        {
+          "id": 15,
+          "name": "Website Custom",
+          "slug": "custom",
+          "desc": "Website Custom",
+          "faq": "Website Custom"
+        }
+      ],
+      "marketings": [
+          {"id": 1,"name":"Jasa SEO", "slug":"seo"},
+          {"id": 2,"name":"Jasa Iklan Facebook", "slug":"iklan-facebook"},
+          {"id": 3,"name":"Jasa Iklan Google", "slug":"iklan-google"},
+          {"id": 4,"name":"Jasa Iklan Instagram", "slug":"iklan-instagram"},
+          {"id": 5,"name":"Jasa Iklan Tiktok", "slug":"iklan-tiktok"},
+          {"id": 6,"name":"Jasa Iklan Shopee", "slug":"iklan-shopee"},
+          {"id": 7,"name":"Jasa Iklan Tokopedia", "slug":"iklan-tokopedia"}
+      ],
+      "others": [
+          {"id": 1,"name":"Jasa Maintenance Website", "slug":"maintenance-website"},
+          {"id": 2,"name":"Jasa Kelola Sosial Media", "slug":"kelola-sosial-media"},
+          {"id": 3,"name":"Jasa Kelola Marketplace", "slug":"kelola-marketplace"},
+          {"id": 4,"name":"Jasa Update Blog", "slug":"update-blog"},
+          {"id": 5,"name":"Jasa Pembuatan Aplikasi Mobile", "slug":"pembuatan-aplikasi-mobile"}
+      ]
+  }
+}
