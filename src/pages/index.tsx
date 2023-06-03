@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Script from 'next/script';
 
 import Layout from '@/components/layout/Layout';
 import ArrowLink from '@/components/links/ArrowLink';
@@ -559,8 +560,8 @@ export default function HomePage(localData: any) {
         <i className="bi bi-arrow-up-short" />
       </div>
       <div className="mb-4 d-block" />
-      <script src="/js/all-js-libraries.js" async />
-      <script src="/js/active.js" async />
+      <Script src="/js/all-js-libraries.js" />
+      <Script src="/js/active.js" />
     </>
   );
 }
