@@ -4,8 +4,6 @@ import Link from 'next/link';
 export default function Header({localData} : any) {
   return (
     <>
-    <link rel="stylesheet" href="/css/all-css-libraries.css" />
-    <link rel="stylesheet" href="/style.css" />
     <header className="header-area">
       <nav className="navbar navbar-expand-lg">
         <div className="container">

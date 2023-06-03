@@ -1,4 +1,5 @@
 import { Head, Html, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 export default function Document() {
   return (
@@ -13,8 +14,12 @@ export default function Document() {
         />
       </Head>
       <body>
+        <link rel="stylesheet" href="/css/all-css-libraries.css" />
+        <link rel="stylesheet" href="/style.css" />
         <Main />
         <NextScript />
+        <Script src="/js/all-js-libraries.js" />
+        <Script src="/js/active.js" />
       </body>
     </Html>
   );
