@@ -19,11 +19,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           Math.random() * 100
         )}`}
       ></Script>
-      <Script
-        src={`/js/active.js?foo=${Math.round(
-          Math.random() * 100
-        )}`}
-      ></Script>  
     </>
   );
 }
