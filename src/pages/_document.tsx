@@ -18,8 +18,6 @@ export default function Document() {
         <link rel="stylesheet" href="/style.css" />
         <Main />
         <NextScript />
-        <Script src="/js/all-js-libraries.js" />
-        <Script src="/js/active.js" />
       </body>
     </Html>
   );

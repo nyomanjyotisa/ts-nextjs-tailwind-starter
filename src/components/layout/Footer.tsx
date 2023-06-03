@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Link from 'next/link';
+import Script from 'next/script';
 
 export default function Footer({localData} : any) {
   return (
@@ -209,6 +210,9 @@ export default function Footer({localData} : any) {
         <i className="bi bi-whatsapp"></i>
       </Link>
       <div className="mb-4 d-block" />
+      
+      <Script src="/js/all-js-libraries.js" />
+      <Script src="/js/active.js" />
     </>
   );
 }
