@@ -4,10 +4,10 @@ import Image from 'next/image';
 
 export default function HomePage(localData: any) {
   return (
-<>
+    <>
       <link rel="stylesheet" href="/css/all-css-libraries.css" />
       <link rel="stylesheet" href="/style.css" />
-      {/* <header className="header-area">
+      <header className="header-area">
         <nav className="navbar navbar-expand-lg">
           <div className="container">
             <a className="navbar-brand" href="/">
@@ -31,12 +31,42 @@ export default function HomePage(localData: any) {
                 </li>
                 <li className="sb-dropdown">
                   <a href="#">Website</a>
+                  <ul className="sb-dropdown-menu">
+                    {localData.services.websites.map((service: any) => (
+                      <li key={service.id}>
+                        <Link href={`/service/website/${service.slug}`}>
+                          <i className="bi" />
+                          {service.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
                 </li>
                 <li className="sb-dropdown">
                   <a href="#">Digital Marketing</a>
+                  <ul className="sb-dropdown-menu">
+                    {localData.services.marketings.map((service: any) => (
+                      <li key={service.id}>
+                        <Link href={`/service/marketing/${service.slug}`}>
+                          <i className="bi" />
+                          {service.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
                 </li>
                 <li className="sb-dropdown">
                   <a href="#">Jasa Lainnya</a>
+                  <ul className="sb-dropdown-menu">
+                    {localData.services.others.map((service: any) => (
+                      <li key={service.id}>
+                        <Link href={`/service/others/${service.slug}`}>
+                          <i className="bi" />
+                          {service.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
                 </li>
                 <li>
                   <a href="/">Portofolio</a>
@@ -53,7 +83,7 @@ export default function HomePage(localData: any) {
             </div>
           </div>
         </nav>
-      </header> */}
+      </header>
 
       <div className="welcome-area bg-gradient">
         <div className="background-shape">
@@ -121,7 +151,7 @@ export default function HomePage(localData: any) {
                 data-wow-duration="1s"
                 data-wow-delay="1s"
               >
-                <Image src="/img/illustrator/hero-3.png" alt="" />
+                <Image src="/img/illustrator/hero-3.png" alt="" width={500} height={500} />
               </div>
             </div>
           </div>
@@ -133,7 +163,7 @@ export default function HomePage(localData: any) {
       <div className="cool-facts-wrapper">
         {/* Background Image */}
         <div className="cta-background-image">
-          <Image src="{{ asset('img/core-img/wm.png') }}" alt="" />
+          <Image src="/img/core-img/wm.png" alt="" width={500} height={500} />
         </div>
         {/* Circle Animation */}
         <div className="circle-animation">
@@ -537,9 +567,9 @@ export default function HomePage(localData: any) {
           </div>
         </div>
       </footer>
-      <div id="scrollTopButton">
-        <i className="bi bi-arrow-up-short" />
-      </div>
+      <a href="https://api.whatsapp.com/send?phone=6281547655988&text=Hi%20Ditrois!" id="whatsApp" target="_blank">
+        <i className="bi bi-whatsapp"></i>
+      </a>
       <div className="mb-4 d-block" />
       <Script src="/js/all-js-libraries.js" />
       <Script src="/js/active.js" />
