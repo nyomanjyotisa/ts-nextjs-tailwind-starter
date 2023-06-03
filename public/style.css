@@ -589,8 +589,8 @@ ol li {
   position: fixed;
   width: 3rem;
   height: 3rem;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 1.25rem;
+  right: 1.25rem;
   font-size: 2rem;
   -webkit-transition: all 500ms;
   transition: all 500ms;
@@ -645,6 +645,10 @@ ol li {
     bottom: 6rem;
     right: 2rem;
     font-size: 1.375rem;
+  }
+  #whatsApp {
+    bottom: 2rem;
+    right: 2rem;
   }
 }
 #scrollTopButton.scrolltop-show {
