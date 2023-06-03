@@ -1,25 +1,6 @@
 import * as React from 'react';
 import Script from 'next/script';
-
-import Layout from '@/components/layout/Layout';
-import ArrowLink from '@/components/links/ArrowLink';
-import ButtonLink from '@/components/links/ButtonLink';
-import UnderlineLink from '@/components/links/UnderlineLink';
-import UnstyledLink from '@/components/links/UnstyledLink';
-import Seo from '@/components/Seo';
-
-/**
- * SVGR Support
- * Caveat: No React Props Type.
- *
- * You can override the next-env if the type is important to you
- * @see https://stackoverflow.com/questions/68103844/how-to-override-next-js-svg-module-declaration
- */
-import Vercel from '~/svg/Vercel.svg';
-
-// !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
-// Before you begin editing, follow all comments with `STARTERCONF`,
-// to customize the default configuration.
+import Image from 'next/image';
 
 export default function HomePage(localData: any) {
   return (
@@ -140,7 +121,7 @@ export default function HomePage(localData: any) {
                 data-wow-duration="1s"
                 data-wow-delay="1s"
               >
-                <img src="/img/illustrator/hero-3.png" alt="" />
+                <Image src="/img/illustrator/hero-3.png" alt="" />
               </div>
             </div>
           </div>
@@ -152,7 +133,7 @@ export default function HomePage(localData: any) {
       <div className="cool-facts-wrapper">
         {/* Background Image */}
         <div className="cta-background-image">
-          <img src="{{ asset('img/core-img/wm.png') }}" alt="" />
+          <Image src="{{ asset('img/core-img/wm.png') }}" alt="" />
         </div>
         {/* Circle Animation */}
         <div className="circle-animation">
