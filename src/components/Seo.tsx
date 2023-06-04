@@ -65,6 +65,7 @@ export default function Seo(props: SeoProps) {
       <meta name='twitter:title' content={meta.title} />
       <meta name='twitter:description' content={meta.description} />
       <meta name='twitter:image' content={meta.image} />
+      <meta name="google-site-verification" content="Y6b17EqTmlJ8LUiAYNync9weqPw_VSdZvJksMCvWm4U" />
       {meta.date && (
         <>
           <meta property='article:published_time' content={meta.date} />
