@@ -6,10 +6,10 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Image from 'next/image';
 
-export default function WebsitePage(localData: any) {
+export default function WebsitePage(props: any) {
   return (
     <>
-      <Header localData={localData}></Header>
+      <Header localData={props.localData}></Header>
       <div className="welcome-area hero3">
   <div className="welcome3-slide-wrap">
     {/* Slide Item */}
@@ -31,14 +31,14 @@ export default function WebsitePage(localData: any) {
                 data-wow-duration="1000ms"
                 data-wow-delay="300ms"
               >
-                Jasa Pembuatan Website Tour Travel
+                Jasa Pembuatan {props.foundItem.name}
               </h2>
               <p
                 className="mb-5 text-white-50 wow fadeInUp"
                 data-wow-duration="1000ms"
                 data-wow-delay="500ms"
               >
-                Bangun website Tour Travel Anda, dan dapatkan jutaan leads customer yang siap bekerjasama dengan perusahaan Anda. Website Anda akan dikerjakan oleh Tim Profesional berpengalaman.
+                {props.foundItem.summary}
               </p>
               <div
                 className="btn-group-two wow fadeInUp"
@@ -77,11 +77,10 @@ export default function WebsitePage(localData: any) {
         <div className="col-12">
           <div className="aboutUs-content">
             <div className="section-heading mb-5">
-              <h2 className="text-center mb-5">Jasa Pembuatan Website Tour Travel</h2>
+              <h2 className="text-center mb-5">Jasa Pembuatan {props.foundItem.name}</h2>
               <p>
-                Jasa Pembuatan Website Tour & travel adalah layanan jasa pembuatan website yang kami tujukan untuk Anda pelaku usaha/ bisnis di bidang perjalanan dan pariwisata. Kami telah melakukan riset tentang website yang tepat khusus untuk Anda pebisnis tour and travel di seluruh Indonesia. Kami mengembangkan website tour & travel ini sehingga lebih mobile friendly dan akan lebih mudah diakses oleh pengguna dari smartphone yang saat ini telah melebihi dari jumlah pengguna dari desktop ataupun laptop.
-                <br /><br />
-                Jadi Anda yang menggunakan layanan kami, tidak perlu mengeluarkan biaya tambahan untuk mendapatkan tampilan yang mobile friendly. Kami telah menambahkannya untuk Anda, sehingga pengunjung website Anda akan lebih nyaman ketika mengakses website tour & travel Anda.</p>
+                {props.foundItem.desc}
+              </p>
             </div>
           </div>
         </div>
@@ -100,9 +99,9 @@ export default function WebsitePage(localData: any) {
         <div className="col-12 col-sm-9 col-md-8 col-lg-7">
           <div className="section-heading text-center">
             <h6>Paket Harga</h6>
-            <h2>Jasa Pembuatan Website Tour Travel</h2>
+            <h2>Jasa Pembuatan {props.foundItem.name}</h2>
             <p>
-              Kami menyediakan beberapa pilihan paket Website Tour Travel yang kami susun sesuai dengan kebutuhan Anda.
+              Kami menyediakan beberapa pilihan paket {props.foundItem.name} yang kami susun sesuai dengan kebutuhan Anda.
             </p>
           </div>
         </div>
@@ -130,7 +129,7 @@ export default function WebsitePage(localData: any) {
                 <div className="pricing-desc mb-5">
                   <ul className="list-unstyled mb-0">
                     <li>
-                      <i className="text-info me-2 bi bi-check-circle-fill" />1
+                      <i className="text-info me-2 bi bi-check-circle-fill" />
                       Gratis Domain .COM
                     </li>
                     <li>
@@ -138,7 +137,7 @@ export default function WebsitePage(localData: any) {
                       Kapasitas Upload 1.5 GB SSD
                     </li>
                     <li>
-                      <i className="text-info me-2 bi bi-check-circle-fill" />1
+                      <i className="text-info me-2 bi bi-check-circle-fill" />
                       Jumlah Halaman 4 Halaman
                     </li>
                     <li>
@@ -199,7 +198,7 @@ export default function WebsitePage(localData: any) {
                 <div className="pricing-desc mb-5">
                   <ul className="list-unstyled mb-0">
                   <li>
-                      <i className="text-info me-2 bi bi-check-circle-fill" />1
+                      <i className="text-info me-2 bi bi-check-circle-fill" />
                       Gratis Domain .COM/.NET/.ORG
                     </li>
                     <li>
@@ -207,7 +206,7 @@ export default function WebsitePage(localData: any) {
                       Kapasitas Upload 3 GB SSD
                     </li>
                     <li>
-                      <i className="text-info me-2 bi bi-check-circle-fill" />1
+                      <i className="text-info me-2 bi bi-check-circle-fill" />
                       Jumlah Halaman 5 Halaman
                     </li>
                     <li>
@@ -269,7 +268,7 @@ export default function WebsitePage(localData: any) {
                 <div className="pricing-desc mb-5">
                   <ul className="list-unstyled mb-0">
                   <li>
-                      <i className="text-info me-2 bi bi-check-circle-fill" />1
+                      <i className="text-info me-2 bi bi-check-circle-fill" />
                       Gratis Domain .COM/.NET/.ORG
                     </li>
                     <li>
@@ -277,7 +276,7 @@ export default function WebsitePage(localData: any) {
                       Kapasitas Upload 5 GB SSD
                     </li>
                     <li>
-                      <i className="text-info me-2 bi bi-check-circle-fill" />1
+                      <i className="text-info me-2 bi bi-check-circle-fill" />
                       Jumlah Halaman 8 Halaman
                     </li>
                     <li>
@@ -338,7 +337,7 @@ export default function WebsitePage(localData: any) {
                 <div className="pricing-desc mb-5">
                   <ul className="list-unstyled mb-0">
                   <li>
-                      <i className="text-info me-2 bi bi-check-circle-fill" />1
+                      <i className="text-info me-2 bi bi-check-circle-fill" />
                       Gratis Domain .COM
                     </li>
                     <li>
@@ -346,7 +345,7 @@ export default function WebsitePage(localData: any) {
                       Kapasitas Upload 10 GB SSD
                     </li>
                     <li>
-                      <i className="text-info me-2 bi bi-check-circle-fill" />1
+                      <i className="text-info me-2 bi bi-check-circle-fill" />
                       Jumlah Halaman 15 Halaman
                     </li>
                     <li>
@@ -403,7 +402,7 @@ export default function WebsitePage(localData: any) {
         <div className="col-12 col-sm-9 col-lg-8">
           <div className="section-heading text-center">
             <h6 className="text-dark">Fitur & Fasilitas</h6>
-            <h2>Website Tour dan Traver</h2>
+            <h2>{props.foundItem.name}</h2>
             <p className="text-dark">
               Anda akan mendapatkan berbagai feature dan fasilitas lengkap untuk website perusahaan Anda.
             </p>
@@ -725,18 +724,23 @@ export default function WebsitePage(localData: any) {
   <div className="mb-120 d-block" />
 </>
 
-<Footer localData={localData}></Footer>
+<Footer localData={props.localData}></Footer>
     </>
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(context: any) {
   const filePath = path.join(process.cwd(), 'data.json');
   const jsonData = await fsPromises.readFile(filePath);
   const localData = JSON.parse(jsonData.toString());
 
+  const itemSlug = context.params?.slug;
+  const foundItem = localData.services.websites.find((item: any) => itemSlug === item.slug);
+
+  console.log(foundItem)
+
   return {
-    props: localData
+    props: {localData, foundItem}
   }
 }
 

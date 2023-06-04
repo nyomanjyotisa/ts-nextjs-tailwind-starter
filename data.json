@@ -5,106 +5,106 @@
         "id": 1,
         "name": "Website Perusahaan",
         "slug": "perusahaan",
-        "desc": "Website Perusahaan",
-        "faq": "Website Perusahaan"
+        "summary": "Tingkatkan visibilitas perusahaan Anda dan jangkau lebih banyak pelanggan potensial dengan memiliki website perusahaan yang profesional.",
+        "desc": "Jasa Pembuatan Website Perusahaan hadir untuk membantu perusahaan dalam membangun kehadiran online yang kuat. Dengan memiliki website perusahaan yang menarik dan responsif, Anda dapat menampilkan profil perusahaan, produk atau layanan yang ditawarkan, dan informasi kontak kepada pelanggan potensial. Dengan memiliki website perusahaan, Anda dapat memperluas jangkauan bisnis Anda, memperkuat citra merek, dan meningkatkan kredibilitas perusahaan di era digital ini."
       },
       {
         "id": 2,
         "name": "Website Dokter Gigi",
         "slug": "dokter-gigi",
-        "desc": "Website Dokter Gigi",
-        "faq": "Website Dokter Gigi"
+        "summary": "Bangun kehadiran online Anda sebagai dokter gigi dan tawarkan pelayanan berkualitas kepada pasien. Dapatkan keuntungan lebih dengan memiliki website dokter gigi yang informatif dan menarik.",
+        "desc": "Jasa Pembuatan Website Dokter Gigi hadir untuk membantu dokter gigi dalam membangun kehadiran online yang efektif. Dengan memiliki website dokter gigi yang informatif, Anda dapat menampilkan profil, layanan, jadwal praktek, dan testimoni pasien kepada calon pasien. Dapatkan keuntungan lebih dengan menjangkau lebih banyak pasien potensial, memberikan informasi yang berguna, dan membangun hubungan yang baik melalui website dokter gigi Anda."
       },
       {
         "id": 3,
         "name": "Website Dokter Mata",
         "slug": "dokter-mata",
-        "desc": "Website Dokter Mata",
-        "faq": "Website Dokter Mata"
+        "summary": "Tingkatkan visibilitas dan reputasi sebagai dokter mata dengan memiliki website profesional. Tawarkan layanan berkualitas kepada pasien dan jangkau lebih banyak orang yang membutuhkan perawatan mata.",
+        "desc": "Jasa Pembuatan Website Dokter Mata hadir untuk membantu dokter mata dalam membangun kehadiran online yang kuat. Dengan memiliki website dokter mata yang informatif dan responsif, Anda dapat menampilkan profil, layanan, informasi kontak, dan artikel atau tips seputar kesehatan mata kepada calon pasien. Memiliki website dokter mata akan membantu Anda menjangkau lebih banyak orang yang membutuhkan perawatan mata, memperkuat reputasi sebagai ahli di bidang ini, dan memberikan layanan berkualitas kepada pasien."
       },
       {
         "id": 4,
         "name": "Website Klinik",
-        "slug": "kinik",
-        "desc": "Website Klinik",
-        "faq": "Website Klinik"
+        "slug": "klinik",
+        "summary": "Bangun kehadiran online klinik Anda dan tawarkan pelayanan kesehatan yang berkualitas kepada pasien. Dapatkan keuntungan lebih dengan memiliki website klinik yang informatif dan mudah diakses.",
+        "desc": "Jasa Pembuatan Website Klinik hadir untuk membantu klinik dalam membangun kehadiran online yang efektif. Dengan memiliki website klinik yang informatif, Anda dapat menampilkan profil klinik, layanan yang tersedia, jadwal praktek, dan informasi kontak kepada pasien potensial. Dapatkan keuntungan lebih dengan menjangkau lebih banyak pasien, memberikan informasi yang berguna, mempermudah proses pendaftaran atau reservasi, dan meningkatkan kepercayaan pasien melalui website klinik Anda."
       },
       {
         "id": 5,
         "name": "Website Fisioterapi",
         "slug": "fisioterapi",
-        "desc": "Website Fisioterapi",
-        "faq": "Website Fisioterapi"
+        "summary": "Tingkatkan visibilitas sebagai fisioterapis dan tawarkan layanan rehabilitasi yang berkualitas kepada pasien. Miliki website fisioterapi yang profesional dan dapatkan keuntungan lebih.",
+        "desc": "Jasa Pembuatan Website Fisioterapi hadir untuk membantu fisioterapis dalam membangun kehadiran online yang kuat. Dengan memiliki website fisioterapi yang informatif dan responsif, Anda dapat menampilkan profil, layanan, metode rehabilitasi, testimoni pasien, dan artikel atau tips kesehatan kepada calon pasien. Memiliki website fisioterapi akan membantu Anda menjangkau lebih banyak orang yang membutuhkan layanan rehabilitasi, meningkatkan reputasi sebagai ahli di bidang ini, dan memberikan layanan berkualitas kepada pasien."
       },
       {
         "id": 6,
         "name": "Website Spa/Message",
         "slug": "spa-message",
-        "desc": "Website Spa/Message",
-        "faq": "Website Spa/Message"
+        "summary": "Tawarkan pengalaman relaksasi dan kecantikan kepada pelanggan dengan memiliki website spa/massage yang menarik. Jangkau lebih banyak orang dan tingkatkan pendapatan bisnis Anda.",
+        "desc": "Jasa Pembuatan Website Spa/Message hadir untuk membantu bisnis spa/massage dalam membangun kehadiran online yang menarik. Dengan memiliki website spa/massage yang responsif dan informatif, Anda dapat menampilkan layanan spa, paket perawatan, harga, informasi kontak, dan testimoni pelanggan kepada calon pelanggan. Memiliki website spa/massage akan membantu Anda menjangkau lebih banyak orang yang mencari relaksasi dan kecantikan, menampilkan keunggulan layanan Anda, dan meningkatkan pendapatan bisnis Anda."
       },
       {
         "id": 7,
         "name": "Website Tour Travel",
         "slug": "tour-travel",
-        "desc": "Website Tour Travel",
-        "faq": "Website Tour Travel"
+        "summary": "Bangun website Tour Travel Anda, dan dapatkan jutaan leads customer yang siap bekerjasama dengan perusahaan Anda. Website Anda akan dikerjakan oleh Tim Profesional berpengalaman.",
+        "desc": "Jasa Pembuatan Website Tour Travel hadir untuk membantu bisnis tour travel dalam membangun kehadiran online yang mengesankan. Dengan memiliki website tour travel yang responsif dan menarik, Anda dapat menampilkan paket wisata, destinasi, testimoni pelanggan, dan fitur pemesanan online kepada calon pelanggan. Memiliki website tour travel akan membantu Anda menjangkau jutaan leads customer yang siap bekerja sama dengan perusahaan Anda, menampilkan profesionalisme bisnis Anda, dan meningkatkan kepercayaan pelanggan terhadap layanan yang Anda tawarkan."
       },
       {
         "id": 8,
         "name": "Website Toko Online",
         "slug": "toko-online",
-        "desc": "Website Toko Online",
-        "faq": "Website Toko Online"
+        "summary": "Buka toko online Anda dan jual produk dengan mudah kepada pelanggan di seluruh dunia. Dapatkan keuntungan lebih dengan memiliki website toko online yang responsif dan aman.",
+        "desc": "Jasa Pembuatan Website Toko Online hadir untuk membantu Anda dalam membangun toko online yang sukses. Dengan memiliki website toko online yang responsif dan aman, Anda dapat menampilkan produk, kategori, deskripsi, testimoni pelanggan, fitur pembayaran, dan sistem pengiriman kepada pelanggan di seluruh dunia. Memiliki toko online akan membantu Anda menjangkau pasar yang lebih luas, membuka peluang bisnis baru, dan meningkatkan penjualan produk Anda."
       },
       {
         "id": 9,
         "name": "Website Hotel/Villa",
         "slug": "hotel-villa",
-        "desc": "Website Hotel/Villa",
-        "faq": "Website Hotel/Villa"
+        "summary": "Promosikan hotel atau villa Anda dan tingkatkan jumlah reservasi dengan memiliki website yang menarik dan mudah diakses oleh calon tamu.",
+        "desc": "Jasa Pembuatan Website Hotel/Villa hadir untuk membantu bisnis hotel atau villa dalam membangun kehadiran online yang mengesankan. Dengan memiliki website hotel/villa yang responsif dan menarik, Anda dapat menampilkan informasi tentang akomodasi, fasilitas, galeri foto, testimonial tamu, dan fitur pemesanan online kepada calon tamu. Memiliki website hotel/villa akan membantu Anda meningkatkan visibilitas bisnis, menarik lebih banyak tamu, mempermudah proses reservasi, dan meningkatkan kepuasan tamu."
       },
       {
         "id": 10,
         "name": "Website Agen Properti",
         "slug": "agen-properti",
-        "desc": "Website Agen Properti",
-        "faq": "Website Agen Properti"
+        "summary": "Tingkatkan penjualan properti Anda dengan memiliki website agen properti yang profesional. Tampilkan properti yang tersedia dan jangkau lebih banyak calon pembeli.",
+        "desc": "Jasa Pembuatan Website Agen Properti hadir untuk membantu agen properti dalam membangun kehadiran online yang kuat. Dengan memiliki website agen properti yang informatif dan responsif, Anda dapat menampilkan properti yang tersedia, informasi detail, galeri foto, testimoni pelanggan, dan fitur pencarian properti kepada calon pembeli. Memiliki website agen properti akan membantu Anda menjangkau lebih banyak calon pembeli, meningkatkan visibilitas properti yang Anda jual, dan meningkatkan penjualan properti Anda."
       },
       {
         "id": 11,
         "name": "Website Sales Mobil",
         "slug": "sales-mobil",
-        "desc": "Website Sales Mobil",
-        "faq": "Website Sales Mobil"
+        "summary": "Tingkatkan penjualan mobil Anda dengan memiliki website sales mobil yang profesional. Tampilkan mobil yang tersedia dan jangkau lebih banyak calon pembeli.",
+        "desc": "Jasa Pembuatan Website Sales Mobil hadir untuk membantu Anda dalam membangun kehadiran online yang mengesankan. Dengan memiliki website sales mobil yang responsif dan informatif, Anda dapat menampilkan mobil yang tersedia, informasi detail, galeri foto, testimoni pelanggan, dan fitur pencarian mobil kepada calon pembeli. Memiliki website sales mobil akan membantu Anda menjangkau lebih banyak calon pembeli, memperluas pasar yang Anda jangkau, dan meningkatkan penjualan mobil Anda."
       },
       {
         "id": 12,
         "name": "Website Rental Mobil",
         "slug": "rental-mobil",
-        "desc": "Website Rental Mobil",
-        "faq": "Website Rental Mobil"
+        "summary": "Kembangkan bisnis rental mobil Anda dengan memiliki website yang profesional. Tampilkan armada mobil yang tersedia dan mudahkan proses penyewaan untuk pelanggan.",
+        "desc": "Jasa Pembuatan Website Rental Mobil hadir untuk membantu bisnis rental mobil dalam membangun kehadiran online yang menarik. Dengan memiliki website rental mobil yang responsif dan informatif, Anda dapat menampilkan armada mobil yang tersedia, harga sewa, syarat dan ketentuan, testimoni pelanggan, dan fitur pemesanan online kepada calon pelanggan. Memiliki website rental mobil akan membantu Anda menjangkau lebih banyak calon penyewa, mempermudah proses penyewaan mobil, dan meningkatkan reputasi bisnis Anda dalam industri rental mobil."
       },
       {
         "id": 13,
         "name": "Website Portal Berita",
         "slug": "portal-berita",
-        "desc": "Website Portal Berita",
-        "faq": "Website Portal Berita"
+        "summary": "Bangun portal berita yang informatif dan menarik dengan memiliki website portal berita. Sajikan informasi terkini kepada pembaca dan dapatkan lalu lintas pengunjung yang tinggi.",
+        "desc": "Jasa Pembuatan Website Portal Berita hadir untuk membantu Anda dalam membangun portal berita yang profesional. Dengan memiliki website portal berita yang responsif dan menarik, Anda dapat menampilkan berita terkini, artikel informatif, galeri foto, video, dan fitur berbagi konten kepada pembaca. Memiliki website portal berita akan membantu Anda menarik lalu lintas pengunjung yang tinggi, memperluas jangkauan berita Anda, dan menjadi sumber informasi terpercaya bagi pembaca Anda."
       },
       {
         "id": 14,
         "name": "Website Pribadi",
         "slug": "pribadi",
-        "desc": "Website Pribadi",
-        "faq": "Website Pribadi"
+        "summary": "Tunjukkan kepribadian Anda dan bagikan kisah unik melalui website pribadi. Berikan portofolio, blog, dan informasi kontak kepada orang-orang yang tertarik.",
+        "desc": "Jasa Pembuatan Website Pribadi hadir untuk membantu Anda dalam membangun kehadiran online yang mencerminkan kepribadian dan kreativitas Anda. Dengan memiliki website pribadi yang unik dan responsif, Anda dapat menampilkan portofolio, blog, galeri karya, pengalaman, dan informasi kontak kepada orang-orang yang tertarik dengan Anda. Memiliki website pribadi akan membantu Anda membangun branding pribadi, memperluas jaringan profesional, dan membagikan kisah-kisah inspiratif kepada audiens Anda."
       },
       {
         "id": 15,
         "name": "Website Custom",
         "slug": "custom",
-        "desc": "Website Custom",
-        "faq": "Website Custom"
+        "summary": "Buat website sesuai kebutuhan Anda dengan layanan pembuatan website custom. Dapatkan solusi yang unik dan sesuai dengan visi bisnis atau proyek Anda.",
+        "desc": "Jasa Pembuatan Website Custom hadir untuk membantu Anda dalam mewujudkan website yang sesuai dengan kebutuhan khusus Anda. Dengan layanan pembuatan website custom, Anda dapat merancang tampilan, fitur, dan fungsionalitas website sesuai dengan visi bisnis atau proyek Anda. Tim kami akan bekerja sama dengan Anda untuk menghasilkan solusi yang unik dan memenuhi ekspektasi Anda. Memiliki website custom akan memberikan Anda kontrol penuh atas pengalaman pengguna, branding, dan strategi pemasaran online Anda."
       }
     ],
     "marketings": [
