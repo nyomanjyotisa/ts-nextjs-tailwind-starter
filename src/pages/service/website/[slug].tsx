@@ -663,7 +663,7 @@ export default function WebsitePage(props: any) {
                 >
                   <div className="card-body">
                     <p>
-                    Ya, kami telah mengerjakan berbagai bermacam website sesuai dengan permintaan klien. Jika Anda ingin memiliki website profesional sesuai keinginan atau website custom seperti toko online, marketplace, portal berita, web rumah sakit dan lain-lain, Selengkapnya Anda dapat menghubungi Customer Care Djitugo.
+                    Ya, kami telah mengerjakan berbagai bermacam website sesuai dengan permintaan klien. Jika Anda ingin memiliki website profesional sesuai keinginan atau website custom seperti toko online, marketplace, portal berita, web rumah sakit dan lain-lain, Selengkapnya Anda dapat menghubungi Customer Care Ditrois.
                     </p>
                   </div>
                 </div>
