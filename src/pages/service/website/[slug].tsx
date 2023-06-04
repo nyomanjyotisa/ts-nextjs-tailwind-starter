@@ -377,7 +377,7 @@ export default function WebsitePage(props: any) {
                     </li>
                     <li>
                       <i className="text-info me-2 bi bi-check-circle-fill" />
-                      Google Index
+                      Google, Bing, Yahoo Index
                     </li>
                     <li>
                       <i className="text-info me-2 bi bi-check-circle-fill" />
