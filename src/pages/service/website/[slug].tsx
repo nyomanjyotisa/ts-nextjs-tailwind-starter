@@ -172,8 +172,8 @@ export default function WebsitePage(props: any) {
                       Google Index
                     </li>
                     <li>
-                      <i className="text-info me-2 bi bi-check-circle-fill" />
-                      Batas Maksimal Revisi 1X Revisi
+                      <i className="text-danger me-2 bi bi-x-circle-fill" />
+                      2 Pilihan Bahasa
                     </li>
                   </ul>
                 </div>
@@ -241,8 +241,8 @@ export default function WebsitePage(props: any) {
                       Google Index
                     </li>
                     <li>
-                      <i className="text-info me-2 bi bi-check-circle-fill" />
-                      Batas Maksimal Revisi 1X Revisi
+                      <i className="text-danger me-2 bi bi-x-circle-fill" />
+                      2 Pilihan Bahasa
                     </li>
                   </ul>
                 </div>
@@ -312,7 +312,7 @@ export default function WebsitePage(props: any) {
                     </li>
                     <li>
                       <i className="text-info me-2 bi bi-check-circle-fill" />
-                      Batas Maksimal Revisi 1X Revisi
+                      Up to 2 Pilihan Bahasa
                     </li>
                   </ul>
                 </div>
@@ -381,7 +381,7 @@ export default function WebsitePage(props: any) {
                     </li>
                     <li>
                       <i className="text-info me-2 bi bi-check-circle-fill" />
-                      Batas Maksimal Revisi 2X Revisi
+                      Up to 3 Pilihan Bahasa
                     </li>
                   </ul>
                 </div>

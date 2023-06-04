@@ -69,7 +69,7 @@ export default function HomePage(localData: any) {
                 data-wow-duration="1s"
                 data-wow-delay="1s"
               >
-                <Image src="/img/illustrator/hero-3.png" alt="" width={500} height={500} />
+                <Image src="/img/illustrator/hero-3.png" alt="" width={500} height={500} loading="eager"/>
               </div>
             </div>
           </div>

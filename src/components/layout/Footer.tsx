@@ -163,7 +163,7 @@ export default function Footer({localData} : any) {
                 </Link>
               </p>
             </div>
-            <div className="footer-nav mb-3 mb-lg-0 me-lg-4">
+            {/* <div className="footer-nav mb-3 mb-lg-0 me-lg-4">
               <ul className="mb-0 d-flex flex-wrap justify-content-center list-unstyled">
                 <li>
                   <Link href="#">
@@ -201,7 +201,7 @@ export default function Footer({localData} : any) {
                   English
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
