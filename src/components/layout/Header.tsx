@@ -22,6 +22,13 @@ export default function Header({localData} : any) {
     setNavbar(!showNavbar);
   }
 
+  function dimissNavbar(){
+    setNavbar(false);
+    setWebsiteDropdown(false);
+    setMarketingDropdown(false);
+    setOthersDropdown(false);
+  }
+
   const handleScroll = () => {
     if(window.scrollY > 10){
       setSticky(true)
@@ -46,16 +53,11 @@ export default function Header({localData} : any) {
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#saasboxNav"
-            aria-controls="saasboxNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
             onClick={() => togleNavbar()}
           >
             <i className="bi bi-grid" />
           </button>
-          <div className="collapse navbar-collapse" id="saasboxNav">
+          <div className={`navbar-collapse ${showNavbar? '' : 'collapse'}`} id="saasboxNav">
             <ul className="navbar-nav navbar-nav-scroll">
               <li>
                 <Link href="/">Beranda</Link>
@@ -71,7 +73,7 @@ export default function Header({localData} : any) {
                   display: showWebsiteDropdown?"block":"none"
                 }}>
                   {localData.services.websites.map((service: any) => (
-                    <li key={service.id}>
+                    <li key={service.id} onClick={() => dimissNavbar()}>
                       <Link href={`/service/website/${service.slug}`}>
                         <i className="bi" />
                         {service.name}
