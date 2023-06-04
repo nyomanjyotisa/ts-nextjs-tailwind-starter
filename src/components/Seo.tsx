@@ -3,19 +3,15 @@ import { useRouter } from 'next/router';
 
 // !STARTERCONF Change these default meta
 const defaultMeta = {
-  title: 'Next.js + Tailwind CSS + TypeScript Starter',
-  siteName: 'Next.js + Tailwind CSS + TypeScript Starter',
+  title: 'Jasa Pembuatan Website Professional Bali Gianyar',
+  siteName: 'Ditrois',
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
-  /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://tsnext-tw.thcl.dev',
+    'Jasa Pembuatan Website Professional Murah BerkualitasBergaransi Cepat Goodle di Bali Gianyar Denpasar Badung Singaraja Jimbaran Kuta',
+  url: 'https://ditrois.vercel.app',
   type: 'website',
   robots: 'follow, index',
-  /**
-   * No need to be filled, will be populated with openGraph function
-   * If you wish to use a normal image, just specify the path below
-   */
-  image: 'https://tsnext-tw.thcl.dev/images/large-og.png',
+  image: '',
+  keyword: 'jasa pembuatan website, jasa buat website, jasa website, website bali, jasa website bali, buat website bali, jasa pembuatan website profesional, jasa pembuatan website murah, jasa pembuatan web',
 };
 
 type SeoProps = {
@@ -46,8 +42,13 @@ export default function Seo(props: SeoProps) {
   return (
     <Head>
       <title>{meta.title}</title>
+      <meta name='title' content={meta.title} />
       <meta name='robots' content={meta.robots} />
-      <meta content={meta.description} name='description' />
+      <meta name='description' content={meta.description} />
+      <meta name='keywords' content={meta.keyword} />
+      <meta name='dcterms.subject' content={meta.keyword} />
+      <meta name='dcterms.type' content="Service" />
+      <meta name='dcterms.language' content="id" />
       <meta property='og:url' content={`${meta.url}${router.asPath}`} />
       <link rel='canonical' href={`${meta.url}${router.asPath}`} />
       {/* Open Graph */}
@@ -55,6 +56,7 @@ export default function Seo(props: SeoProps) {
       <meta property='og:site_name' content={meta.siteName} />
       <meta property='og:description' content={meta.description} />
       <meta property='og:title' content={meta.title} />
+      <meta property='og:locale' content="id_ID" />
       <meta name='image' property='og:image' content={meta.image} />
       {/* Twitter */}
       <meta name='twitter:card' content='summary_large_image' />

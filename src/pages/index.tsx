@@ -4,6 +4,7 @@ import Image from 'next/image';
 export default function HomePage(localData: any) {
   return (
     <>
+      <Seo></Seo>
       <Header localData={localData}></Header>
       <div className="welcome-area bg-gradient">
         <div className="background-shape">
@@ -292,6 +293,7 @@ import path from 'path'
 import Link from 'next/link';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import Seo from '@/components/Seo';
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'data.json');
   const jsonData = await fsPromises.readFile(filePath);
