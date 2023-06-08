@@ -47,12 +47,13 @@ export default function Header({localData} : any) {
     <header className={`header-area ${showNavbar? 'mobile-menu-open' : ''} ${showSticky? 'sticky-on' : ''}`}>
       <nav className="navbar navbar-expand-lg">
         <div className="container">
-          <Link className="navbar-brand" href="/">
+          <Link className="navbar-brand" href="/" aria-label="Ditrois">
             <img src="/img/ditrois-yellow.png" alt="" />
           </Link>
           <button
             className="navbar-toggler"
             type="button"
+            aria-label="Navbar Toggle"
             onClick={() => togleNavbar()}
           >
             <i className="bi bi-grid" />

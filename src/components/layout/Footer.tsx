@@ -20,15 +20,15 @@ export default function Footer({localData} : any) {
               >
                 Team Expert Kami Siap Membantu Anda!
               </h2>
-              <h5
-                className="mb-4 mb-lg-5 wow fadeInUp"
+              <div
+                className="mb-4 mb-lg-5 wow fadeInUp fz-22"
                 data-wow-duration="1000ms"
                 data-wow-delay="200ms"
                 style={{ color: "#ffffff" }}
               >
                 Masih Awam di dunia digital? Konsultasikan gratis dengan
                 Marketing Expert kami!
-              </h5>
+              </div>
               <Link
                 className="btn btn-warning wow fadeInUp"
                 data-wow-duration="1000ms"
@@ -48,7 +48,7 @@ export default function Footer({localData} : any) {
           <div className="row g-4 g-lg-5">
             <div className="col-12 col-sm-6 col-lg-3">
               <div className="footer-widget-area">
-                <Link className="d-block mb-4" href="index.html">
+                <Link className="d-block mb-4" href="index.html" aria-label="Ditrois">
                   <img src="/img/ditrois.png" alt="" />
                 </Link>
                 <p>
@@ -205,7 +205,7 @@ export default function Footer({localData} : any) {
           </div>
         </div>
       </footer>
-      <Link href="https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20website" id="whatsApp" target="_blank">
+      <Link href="https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20website" id="whatsApp" target="_blank"  aria-label="Hubungi kami melalui WhatsApp">
         <i className="bi bi-whatsapp"></i>
       </Link>
       <div className="mb-4 d-block" />

@@ -94,7 +94,7 @@ export default function HomePage(localData: any) {
           <div className="row justify-content-center">
             <div className="col-12 col-sm-10 col-md-9 col-lg-8">
               <div className="section-heading text-center">
-                <h6>Milestone Kami</h6>
+                <p className='fw-700'>Milestone Kami</p>
                 <h2>
                   Kami telah sukses menyelesiakan beberapa project untuk
                   pelanggan kami.
@@ -115,7 +115,7 @@ export default function HomePage(localData: any) {
                 <h2>
                   <span className="counter">100</span>+
                 </h2>
-                <h6 className="mb-0">Client</h6>
+                <p className="mb-0 fw-700 likeHeader">Client</p>
               </div>
             </div>
             {/* Single Cool Facts */}
@@ -128,7 +128,7 @@ export default function HomePage(localData: any) {
                 <h2>
                   <span className="counter">10+</span>
                 </h2>
-                <h6 className="mb-0">Developer dan Designer</h6>
+                <p className="mb-0 likeHeader">Developer dan Designer</p>
               </div>
             </div>
             {/* Single Cool Facts */}
@@ -141,7 +141,7 @@ export default function HomePage(localData: any) {
                 <h2>
                   <span className="counter">5+</span>
                 </h2>
-                <h6 className="mb-0">Tahun Pengalaman</h6>
+                <p className="mb-0 likeHeader">Tahun Pengalaman</p>
               </div>
             </div>
           </div>
