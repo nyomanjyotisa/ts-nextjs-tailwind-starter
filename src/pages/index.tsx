@@ -81,7 +81,7 @@ export default function HomePage(localData: any) {
       <div className="cool-facts-wrapper">
         {/* Background Image */}
         <div className="cta-background-image">
-          <Image src="/img/core-img/wm.png" alt="" width={500} height={500} />
+          <Image src="/img/core-img/wm.png" alt="" width={500} height={500} loading="eager"/>
         </div>
         {/* Circle Animation */}
         <div className="circle-animation">

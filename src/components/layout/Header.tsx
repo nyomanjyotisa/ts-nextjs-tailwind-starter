@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header({localData} : any) {
   const [showWebsiteDropdown, setWebsiteDropdown] = React.useState(false);
@@ -48,7 +49,7 @@ export default function Header({localData} : any) {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <Link className="navbar-brand" href="/" aria-label="Ditrois">
-            <img src="/img/ditrois-yellow.png" alt="" />
+            <Image width={140} height={40} src="/img/ditrois-yellow.png" alt="" />
           </Link>
           <button
             className="navbar-toggler"

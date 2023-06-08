@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer({localData} : any) {
   return (
@@ -49,7 +50,7 @@ export default function Footer({localData} : any) {
             <div className="col-12 col-sm-6 col-lg-3">
               <div className="footer-widget-area">
                 <Link className="d-block mb-4" href="index.html" aria-label="Ditrois">
-                  <img src="/img/ditrois.png" alt="" />
+                  <Image width={140} height={40} src="/img/ditrois.png" alt="" />
                 </Link>
                 <p>
                   Perusahaan pengembangan website dan perangkat lunak yang
