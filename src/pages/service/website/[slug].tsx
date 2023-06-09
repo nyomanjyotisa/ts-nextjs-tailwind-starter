@@ -11,10 +11,10 @@ export default function WebsitePage(props: any) {
   return (
     <>
       <Seo 
-        siteName={`Ditrois - Jasa Pembuatan ${props.localData.name}`}
-        title={`Jasa Pembuatan ${props.localData.name} Professional Bali Gianyar`}
-        description={`Jasa Pembuatan ${props.localData.name} Professional Murah BerkualitasBergaransi Cepat Goodle di Bali Gianyar Denpasar Badung Singaraja Jimbaran Kuta`}
-        keyword={`jasa pembuatan ${props.localData.name}, jasa pembuatan website, jasa buat website, jasa website, website bali, jasa website bali, buat website bali, jasa pembuatan website profesional, jasa pembuatan website murah, jasa pembuatan web`}
+        siteName={`Ditrois - Jasa Pembuatan ${props.foundItem.name}`}
+        title={`Jasa Pembuatan ${props.foundItem.name} Professional Bali Gianyar`}
+        description={`Jasa Pembuatan ${props.foundItem.name} Professional Murah BerkualitasBergaransi Cepat Goodle di Bali Gianyar Denpasar Badung Singaraja Jimbaran Kuta`}
+        keyword={`jasa pembuatan ${props.foundItem.name}, jasa pembuatan website, jasa buat website, jasa website, website bali, jasa website bali, buat website bali, jasa pembuatan website profesional, jasa pembuatan website murah, jasa pembuatan web`}
       ></Seo>
       <Header localData={props.localData}></Header>
       <div className="welcome-area hero3">
