@@ -48,7 +48,24 @@
         "name": "Website Tour Travel",
         "slug": "tour-travel",
         "summary": "Bangun website Tour Travel Anda, dan dapatkan jutaan leads customer yang siap bekerjasama dengan perusahaan Anda. Website Anda akan dikerjakan oleh Tim Profesional berpengalaman.",
-        "desc": "Jasa Pembuatan Website Tour Travel hadir untuk membantu bisnis tour travel dalam membangun kehadiran online yang mengesankan. Dengan memiliki website tour travel yang responsif dan menarik, Anda dapat menampilkan paket wisata, destinasi, testimoni pelanggan, dan fitur pemesanan online kepada calon pelanggan. Memiliki website tour travel akan membantu Anda menjangkau jutaan leads customer yang siap bekerja sama dengan perusahaan Anda, menampilkan profesionalisme bisnis Anda, dan meningkatkan kepercayaan pelanggan terhadap layanan yang Anda tawarkan."
+        "desc": "Jasa Pembuatan Website Tour Travel hadir untuk membantu bisnis tour travel dalam membangun kehadiran online yang mengesankan. Dengan memiliki website tour travel yang responsif dan menarik, Anda dapat menampilkan paket wisata, destinasi, testimoni pelanggan, dan fitur pemesanan online kepada calon pelanggan. Memiliki website tour travel akan membantu Anda menjangkau jutaan leads customer yang siap bekerja sama dengan perusahaan Anda, menampilkan profesionalisme bisnis Anda, dan meningkatkan kepercayaan pelanggan terhadap layanan yang Anda tawarkan.",
+        "themes":[
+          {
+            "id": 1,
+            "image": "/images/themes/tour-1",
+            "demo": "https://chisfis-nextjs.vercel.app/"
+          },
+          {
+            "id": 2,
+            "image": "/images/themes/tour-2",
+            "demo": "https://gotrip-next.vercel.app/home/home_5"
+          },
+          {
+            "id": 3,
+            "image": "/images/themes/tour-3",
+            "demo": "https://gowilds.netlify.app"
+          }
+        ]
       },
       {
         "id": 8,

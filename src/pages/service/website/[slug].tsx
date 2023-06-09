@@ -258,7 +258,7 @@ export default function WebsitePage(props: any) {
             <div className="col-12 col-sm-9 col-md-7 col-lg-3">
               <div
                 className="card pricing-card monthly-plan active bg-img shadow-lg wow fadeInUp"
-                style={{ backgroundImage: 'url("img/core-img/3.png")' }}
+                style={{ backgroundImage: 'url("/img/core-img/3.png")' }}
                 data-wow-duration="1000ms"
                 data-wow-delay="500ms"
               >
@@ -400,6 +400,35 @@ export default function WebsitePage(props: any) {
   </div>
   <div className="mb-120 d-block" />
 </>
+
+<div className="mb-120 d-block" />
+<div className="about-area">
+  <div className="container">
+    <div className="row g-5 align-items-center justify-content-md-center justify-content-lg-between">
+      <div className="col-12 row">
+        <div className="section-heading mb-5 mt-5">
+          <h2 className="text-center mb-5">Pilihan Tema {props.foundItem.name}</h2>
+        </div>
+        <div className="col-12 col-sm-6 pb-4">
+          <Link href="/theme">
+            <Image src="/images/themes/tour-2.png" className='shadow-lg' alt="" width={1000} height={1000}></Image>
+          </Link>
+        </div>
+
+        
+        <div className="col-12 col-sm-6 pb-4">
+          <Image src="/images/themes/tour-3.png" className='shadow-lg' alt="" width={1000} height={1000}></Image>
+        </div>
+
+        <div className="col-12 col-sm-6 pb-4">
+          <Image src="/images/themes/tour-1.png" className='shadow-lg' alt="" width={1000} height={1000}></Image>
+        </div>
+          
+      </div>
+    </div>
+  </div>
+</div>
+<div className="mb-120 d-block" />
 
 <>
   {/* Features Area*/}

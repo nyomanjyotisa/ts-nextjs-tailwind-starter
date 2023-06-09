@@ -8,7 +8,7 @@ export default function Footer({localData} : any) {
     {/* Cool Footer Facts Area*/}
     <div
       className="cta-area pt-120 pb-120 bg-img bg-fixed bg-overlay"
-      style={{ backgroundImage: 'url("img/bg-img/1.jpg")' }}
+      style={{ backgroundImage: 'url("/img/bg-img/1.jpg")' }}
     >
       <div className="container">
         <div className="row">
@@ -107,6 +107,7 @@ export default function Footer({localData} : any) {
                 </div>
               </div>
             </div>
+            <div className="col-12 col-sm-6 col-lg-3"></div>
             <div className="col-12 col-sm-6 col-lg-3">
               <div className="footer-widget-area">
                 <h5 className="mb-4">Jasa Website</h5>
@@ -122,7 +123,7 @@ export default function Footer({localData} : any) {
                 </ul>
               </div>
             </div>
-            <div className="col-12 col-sm-6 col-lg-3">
+            {/* <div className="col-12 col-sm-6 col-lg-3">
               <div className="footer-widget-area">
                 <h5 className="mb-4">Jasa Marketing</h5>
                 <ul className="list-unstyled">
@@ -151,7 +152,7 @@ export default function Footer({localData} : any) {
                   ))}
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="container">

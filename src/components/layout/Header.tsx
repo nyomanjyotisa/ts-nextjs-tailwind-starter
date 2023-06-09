@@ -84,7 +84,7 @@ export default function Header({localData} : any) {
                   ))}
                 </ul>
               </li>
-              <li className="sb-dropdown">
+              {/* <li className="sb-dropdown">
                 <Link href="#"
                   onMouseEnter={() => setMarketingDropdown(true)}   
                 >Digital Marketing</Link>
@@ -123,13 +123,7 @@ export default function Header({localData} : any) {
                     </li>
                   ))}
                 </ul>
-              </li>
-              <li>
-                <Link href="/">Portofolio</Link>
-              </li>
-              <li>
-                <Link href="/">Kontak</Link>
-              </li>
+              </li> */}
             </ul>
             <div className="ms-auto mb-3 mb-lg-0">
               <Link className="btn btn-warning btn-sm" href="https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20website">
