@@ -5,7 +5,7 @@ import Layout from '@/components/layout/Layout';
 import ArrowLink from '@/components/links/ArrowLink';
 import Seo from '@/components/Seo';
 
-export default function OtherServicePage(localData: any) {
+export default function OtherServicePage() {
   return (
     <>
       
@@ -33,7 +33,6 @@ export default function OtherServicePage(localData: any) {
 
 import fsPromises from 'fs/promises';
 import path from 'path'
-import Link from 'next/link';
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'data.json');
   const jsonData = await fsPromises.readFile(filePath);

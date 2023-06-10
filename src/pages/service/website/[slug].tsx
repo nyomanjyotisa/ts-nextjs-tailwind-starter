@@ -419,7 +419,7 @@ export default function WebsitePage(props: any) {
 
               <div className='row'>
               {props.foundItem.themes.map((theme: any) => (
-                <div className="col-12 col-sm-6 pb-4">
+                <div className="col-12 col-sm-6 pb-4" key={theme.id}>
                   <Link href={`/theme/${props.foundItem.slug}/${theme.slug}`}>
                     <Image src={theme.image} className='shadow-lg' alt="" width={800} height={397}></Image>
                   </Link>
