@@ -413,24 +413,19 @@ export default function WebsitePage(props: any) {
           <div className="aboutUs-content">
             <div className="section-heading">
               
-        <div className="section-heading mt-5">
-          <h2 className="text-center">Pilihan Tema {props.foundItem.name}</h2>
-        </div>
-        <div className="col-12 col-sm-6 pb-4">
-          <Link href="/theme">
-            <Image src="/images/themes/tour-2.png" className='shadow-lg' alt="" width={1000} height={1000}></Image>
-          </Link>
-        </div>
-        <div className="col-12 col-sm-6 pb-4">
-          <Link href="/theme">
-            <Image src="/images/themes/tour-3.png" className='shadow-lg' alt="" width={1000} height={1000}></Image>
-          </Link>
-        </div>
-        <div className="col-12 col-sm-6 pb-4">
-          <Link href="/theme">
-            <Image src="/images/themes/tour-1.png" className='shadow-lg' alt="" width={1000} height={1000}></Image>
-          </Link>
-        </div>
+              <div className="section-heading mt-5">
+                <h2 className="text-center">Pilihan Tema {props.foundItem.name}</h2>
+              </div>
+
+              <div className='row'>
+              {props.foundItem.themes.map((theme: any) => (
+                <div className="col-12 col-sm-6 pb-4">
+                  <Link href={`/theme/${props.foundItem.slug}/${theme.slug}`}>
+                    <Image src={theme.image} className='shadow-lg' alt="" width={800} height={397}></Image>
+                  </Link>
+                </div>
+              ))}
+              </div>
             </div>
           </div>
         </div>
