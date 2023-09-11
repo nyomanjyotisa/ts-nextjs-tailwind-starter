@@ -149,7 +149,7 @@ export default function WebsitePage(props: any) {
                           </li>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
-                            Kapasitas Upload 1.5 GB SSD
+                            Kapasitas Storage 1 GB SSD
                           </li>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
@@ -220,7 +220,7 @@ export default function WebsitePage(props: any) {
                           </li>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
-                            Kapasitas Upload 3 GB SSD
+                            Kapasitas Storage 3 GB SSD
                           </li>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
@@ -292,7 +292,7 @@ export default function WebsitePage(props: any) {
                           </li>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
-                            Kapasitas Upload 5 GB SSD
+                            Kapasitas Storage 5 GB SSD
                           </li>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
@@ -363,7 +363,7 @@ export default function WebsitePage(props: any) {
                           </li>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
-                            Kapasitas Upload 10 GB SSD
+                            Kapasitas Storage 10 GB SSD
                           </li>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
