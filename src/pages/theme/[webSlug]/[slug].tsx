@@ -12,7 +12,7 @@ export default function HomePage(props: any) {
             width="100%"
             height="100%"/>
       
-      <Link href="https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20website" id="themeWhatsApp" target="_blank"  aria-label="Hubungi kami melalui WhatsApp">
+      <Link href={"https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20"+props.foundWebsite.name+"%20dengan%20tema%20"+props.foundItem.id} id="themeWhatsApp" target="_blank"  aria-label="Hubungi kami melalui WhatsApp">
         <span className='fz-18 fw-600 m-3'>Pilih tema ini</span>
       </Link>
     </>
@@ -34,7 +34,7 @@ export async function getStaticProps(context: any) {
   console.log(foundItem)
 
   return {
-    props: {localData, foundItem}
+    props: {localData, foundItem, foundWebsite}
   }
 }
 

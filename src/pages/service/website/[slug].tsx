@@ -54,7 +54,8 @@ export default function WebsitePage(props: any) {
                     >
                       <Link
                         className='btn btn-warning rounded-pill me-3'
-                        href='https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20website'
+                        target='_blank'
+                        href={'https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20' + props.foundItem.name}
                       >
                         Konsultasi Sekarang
                       </Link>
@@ -187,7 +188,8 @@ export default function WebsitePage(props: any) {
                       <div className='pricing-btn'>
                         <Link
                           className='btn btn-warning btn-sm rounded-pill mb-3 me-3'
-                          href='https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20website%20dengan%20paket%20Lite'
+                          target='_blank'
+                          href={'https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20' + props.foundItem.name + '%20dengan%20paket%20Lite'}
                         >
                           Pesan Sekarang
                         </Link>
@@ -214,7 +216,7 @@ export default function WebsitePage(props: any) {
                         <ul className='list-unstyled mb-0'>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
-                            Gratis Domain .COM/.NET/.ORG
+                            Gratis Domain .COM
                           </li>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
@@ -257,7 +259,8 @@ export default function WebsitePage(props: any) {
                       <div className='pricing-btn'>
                         <Link
                           className='btn btn-warning btn-sm rounded-pill mb-3 me-3'
-                          href='https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20website%20dengan%20paket%20Express'
+                          target='_blank'
+                          href={'https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20' + props.foundItem.name + '%20dengan%20paket%20Express'}
                         >
                           Pesan Sekarang
                         </Link>
@@ -285,7 +288,7 @@ export default function WebsitePage(props: any) {
                         <ul className='list-unstyled mb-0'>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
-                            Gratis Domain .COM/.NET/.ORG
+                            Gratis Domain .COM
                           </li>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
@@ -328,7 +331,8 @@ export default function WebsitePage(props: any) {
                       <div className='pricing-btn'>
                         <Link
                           className='btn btn-warning btn-sm rounded-pill mb-3 me-3'
-                          href='https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20website%20dengan%20paket%20Bussiness'
+                          target='_blank'
+                          href={'https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20' + props.foundItem.name + '%20dengan%20paket%20Bussiness'}
                         >
                           Pesan Sekarang
                         </Link>
@@ -355,7 +359,7 @@ export default function WebsitePage(props: any) {
                         <ul className='list-unstyled mb-0'>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
-                            Gratis Domain .COM/.NET/.ORG
+                            Gratis Domain .COM
                           </li>
                           <li>
                             <i className='text-info bi bi-check-circle-fill me-2' />
@@ -398,7 +402,8 @@ export default function WebsitePage(props: any) {
                       <div className='pricing-btn'>
                         <Link
                           className='btn btn-warning btn-sm rounded-pill mb-3 me-3'
-                          href='https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20website%20dengan%20paket%20Pro'
+                          target='_blank'
+                          href={'https://wa.me/6285161830939?text=Hi,%20Saya%20ingin%20membuat%20' + props.foundItem.name + '%20dengan%20paket%20Pro'}
                         >
                           Pesan Sekarang
                         </Link>
